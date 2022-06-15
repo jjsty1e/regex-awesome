@@ -34,10 +34,5 @@ use the gmail rules, ie "only letters, numbers and periods(.) allowed, periods(.
 
 **Tests**
 
-- ❌ `abc`
-- ❌ `.abc`
-- ❌ `a..bc`
-- ❌ `abc.`
-- ✅ `abc`
-- ✅ `a.bc`
-- ✅ `a.b.c`
+- ❌ `abc` `.abc` `a..bc` `abc.`
+- ✅ `abc` `a.bc` `a.b.c`
