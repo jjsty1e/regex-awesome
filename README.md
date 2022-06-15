@@ -8,9 +8,7 @@ I created this repo to share regex rules we may use, I'm going to improve and fi
 problem(a wrong rule; a simplable rule) or just wand to make it better, create a pull request and I would merge if it's ok
 , thanks!
 
-## Numbers
-
-### All positive integers and floats
+## All positive integers and floats
 
 **Pattern** `/^(0|[1-9]\d*)(\.\d*[1-9])?$/`
 
@@ -21,9 +19,7 @@ problem(a wrong rule; a simplable rule) or just wand to make it better, create a
 - ❌ `123.0` (one or more `0` as fraction part not allowed)
 - ✅ `123.01`
 
-## Url & Path
-
-### ❓Email addresses
+## Email addresses
 
 Check full description for email addresses, [Click](https://en.wikipedia.org/wiki/Email_address), But it's too complex. So here We
 use the gmail rules, ie "only letters, numbers and periods(.) allowed, periods(.) not allowed at first and last place, and can't be consecutive."
