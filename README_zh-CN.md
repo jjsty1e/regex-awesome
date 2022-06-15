@@ -1,6 +1,6 @@
 # regex-awesome
 
-中文 | [English](./README_zh-CN.md)
+中文 | [English](./README.md)
 
 ## 数字
 
